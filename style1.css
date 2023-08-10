@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,800;0,900;1,800&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(20deg,#A1CCD1 70%,#F1F0E8 20%);
+}
+.main-box{
+    width:25%;
+    height:90vh;
+    
+    border: 1px solid black;
+    margin: 20px 0 10px 40%;
+    display: flex;
+    color: rgb(40, 38, 38);
+    font-weight: 500;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #2F58CD;
+}
+.main-box>.box-one{
+    width:95%;
+    height: 89vh;
+    margin-top: 3px;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    background: linear-gradient(20deg,rgb(236, 145, 145) 70%,rgb(64, 149, 125) 10%);
+}
+.main-box>.box-one>.box-two>div{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    margin-left:2.5%;
+    margin-top: 3px;
+}
+.main-box>.box-one>.box-two>div>span>button{
+    width: 80px;
+    height: 30px;
+    margin-left: 2px;
+    padding:1px 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    outline: none;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+.main-box>.box-one>.box-two>div>span>button:hover{
+    transform: scale(0.9s);
+}
+.main-box>.box-one>.box-two>div>span{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3px;
+}
+.main-box>.box-one>.box-two>div>span>small{
+    font-size: 10px;
+    margin-top: 3px;
+}
+.main-box>.box-one>.third-box{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.main-box>.box-one>.third-box>span{
+    display: flex;
+    justify-content: space-around;
+}
+.main-box>.box-one>.third-box>span>small{
+    font-size: 10px;
+    margin-top: 3px;
+}
+.main-box>.box-one>.third-box>span>button{
+    width: 70px;
+    height: 25px;
+    margin-left: 2px;
+    padding:1px 3px;
+    margin-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+.main-box>.box-one>.third-box>span>button:hover{
+    transform: scale(0.9s);
+}
+.main-box>.box-one>.box-one-top{
+    width:95%;
+    height: 29vh;
+    margin-left: 2.5%;
+    border: 1px solid black;;
+}
+.main-box>.box-one>.box-one-top>#box-one-middle{
+    width:95%;
+    height: 18vh;
+    margin-left: 2.5%;
+    margin-top: 4px;
+    border: 1px solid black;
+    box-shadow: inset 0 0 8px gray;
+}
+.main-box>.box-one>.box-one-top>#box-one-middle>input[type=text]{
+    width: 95%;
+    height: 16vh;
+    margin-left: 2.5%;
+    margin-top: 5px;
+    font-size: medium;
+    background-color:#9ED2BE;
+    color: #4c4b4e;
+    box-shadow: inset 0 0 8px rgb(67, 33, 33);
+    border: none;
+    text-align: right;
+    
+}
+.main-box>.box-one>.box-one-top>#box-one-text{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    
+}
+.main-box>.box-one>.box-one-top>#box-one-bottom{
+    width: 95%;
+    height: 10vh;
+    margin-left: 2.5%;
+    justify-content: space-around;
+}
+.main-box>.box-one>.box-one-top>#box-one-bottom>button{
+    width: 75px;
+    margin-left: 2px;
+    margin-top: 2.5%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    background-color: rgb(237, 150, 88);
+    color: white;
+    outline: none;
+}
+.main-box>.box-one>.box-one-top>#box-one-bottom>button:hover{
+    transform: scale(0.9s);
+}
+@media(max-width:830px){
+    .main-box{
+        width:100%;
+    }
+}
